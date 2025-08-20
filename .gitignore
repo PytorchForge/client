@@ -5,3 +5,4 @@
 /.react-router/
 /build/
 git-commit.md
+tauri-initialize-for-build.sh
