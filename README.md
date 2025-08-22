@@ -25,7 +25,7 @@ We provide pre-built binaries for:
 - **macOS**
   - Apple Silicon (aarch64): `.dmg`, `.tar.gz`
   - Intel (x64): `.dmg`, `.tar.gz`
-- **Linux**
+- **Linux** (currently only working version)
   - `.AppImage`, `.rpm`, `.deb` for amd64/x86_64
 - **Windows**
   - `.exe`, `.msi` installers for x64
@@ -69,6 +69,17 @@ If you are interested in contributing to the development of this client, or if y
 ## Use Client
 
 For users who want to utilize the client without developing it, pre-built binaries are available in the [releases section](https://github.com/PytorchForge/client/releases) of the GitHub repository.
+
+currently only linux version is tested to be working.
+to run, download latest appImage or deb or rpm, along with pyproject.toml.
+make sure you have python and for simplicity install uv via pip.
+
+uv sync to create venv and install libs, 
+activate the venv and run the appimage in it.
+
+
+*you can skip the venv and directly run if you install the libs as system packages in your distro, and then you can directly run the appimage*
+
 
 # Releases
 
