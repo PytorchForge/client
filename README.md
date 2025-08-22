@@ -68,7 +68,7 @@ If you are interested in contributing to the development of this client, or if y
 
 ## Use Client
 
-For users who want to utilize the client without developing it, pre-built binaries are available in the [releases section](https://github.com/PytorchForge/client/releases) of the GitHub repository.
+For users who want to utilize the client without developing it, pre-built binaries are available in the [releases section](https://github.com/PytorchForge/client/releases) of the GitHub repository. (0.1.0-3 latest known working)
 
 currently only linux version is tested to be working.
 to run, download latest appImage or deb or rpm, along with pyproject.toml.
